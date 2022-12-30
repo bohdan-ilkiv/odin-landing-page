@@ -1,0 +1,114 @@
+*{
+	box-sizing: border-box;
+	font-family: Roboto, sans-serif;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: #1F2937;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2% 0;
+}
+
+
+
+nav ul{
+	margin: 0;
+}
+
+.nav-links {
+	flex: 1;
+	text-align: right;
+}
+
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #3882f6;
+	display: block;
+	margin: auto;
+	transition: .5s;
+}
+
+.nav-links ul li:hover::after {
+	width: 100%;
+}
+
+
+.link-item {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+
+.link-item a {
+	text-decoration: none;
+	color: #f9faf8;
+	font-size: 24px;
+}
+
+.sign-up-section {
+	width: 50%;
+	word-wrap: break-word;
+	text-align: left;
+	flex: 1;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+
+.heading {
+	color: #f9faf8;
+	font-weight: bold;
+	font-size: 48px;
+	margin: 0;
+	padding: .5em 0 0 0;
+}
+
+.header-text {
+	color: #e5e7eb;
+	margin: 0;
+	padding: .5em 0 0 0;
+}
+
+.btn {
+	margin: .5em 0 2em 0;
+	color: #f9faf8;
+	border-radius: 6px;
+	background-color: #3882f6;
+	border: 0px solid #3882f6;
+	font-size: 1.3em;
+	font-weight: lighter;
+	padding: .3em 2em;
+	cursor: pointer;
+}
+
+.text-photo-align {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-bottom: 5em;
+}
+
+.header-image {
+	border-radius: 50%;
+	flex: 1;
+}
+
+
+
+
